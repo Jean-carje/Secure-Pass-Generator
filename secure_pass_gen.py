@@ -115,7 +115,7 @@ def main():
         print(f"\nYour new secure password is: {password}")
         print(f"Estimated entropy: {entropy:.2f} bits ({entropy_level})")
     except ValueError as e:
-        # Handle any ValueError exceptions (e.g., invalid input)
+        # Handle any ValueError exceptions
         print(f"Error: {e}. Please try again.")
 
 if __name__ == "__main__":
