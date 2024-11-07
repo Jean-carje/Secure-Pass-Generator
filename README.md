@@ -29,6 +29,22 @@ python secure_pass_gen.py
 
 Follow the on-screen instructions to generate a secure password.
 
+### CLI Version
+
+```bash
+python cli.py
+```
+```
+usage: cli.py [-h] [-l LENGTH] [-r]
+
+options:
+  -h, --help            show this help message and exit
+  -l LENGTH, --length LENGTH
+                        Lenght of the password (Default: 12, Min: 4)
+  -r, --remove-ambiguous
+                        Remove ambiguous characters like 'l', '1', 'O', '0' (Default: False)
+```
+
 ## Contributing
 
 Contributions are welcome! Please open an issue or submit a pull request for improvements, bug fixes, or new features.
